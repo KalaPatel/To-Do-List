@@ -1,0 +1,45 @@
+.NewToDo {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: rgba(58, 56, 56, 0.342);
+}
+
+.NewToDo h2 {
+  font-size: 3rem;
+  text-shadow: 5px 3px 2px orange;
+}
+
+.formComponent {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.formComponent input {
+  padding: 0 10px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 1px orange;
+}
+
+.formComponent button {
+  border: none;
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
